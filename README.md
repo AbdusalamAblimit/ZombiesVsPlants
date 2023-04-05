@@ -3,7 +3,9 @@
 
 ## 开发环境
 
-开发工具是<code>Visual studio2022</code>,其中用到<code>DirectX SDK</code>当中的<code>Microsoft.DirectX.DirectSound.dll</code>和<code>Microsoft.DirectX.dll</code>。需要引用这两个<code>.dll</code>才能够编译运行，这两个<code>.dll</code>文件在项目文件夹里的<code>dependent</code>文件夹内。
+开发工具是<code>Visual studio2022</code>,其中用到<code>DirectX SDK</code>当中的<code>Microsoft.DirectX.DirectSound.dll</code>和<code>Microsoft.DirectX.dll</code>。
+
+如果报了这两个引用相关的错误，则需要引用这两个<code>.dll</code>才能够编译运行，这两个<code>.dll</code>文件在项目文件夹里的<code>dependent</code>文件夹内。
 
 以下给出添加这两个引用的过程：
 
