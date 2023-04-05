@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ZombiesVsPlants.API.APIS" Collapsed="true">
+    <Position X="42.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hSAIACICAIKBFAAAAgNAAAYAGAAJASInQAJAAgAAAAA=</HashCode>
+      <FileName>API\APIS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZombiesVsPlants.BaseObject" Collapsed="true">
+    <Position X="22.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAABBAAAgQBQAAAAEAAEAABABAAAABgAAAAYAE=</HashCode>
+      <FileName>Bases\BaseObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZombiesVsPlants.BaseRole" Collapsed="true">
+    <Position X="18.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAACAAAAggAAAMAAABAIAAAwAAAAJACAAAQQI=</HashCode>
+      <FileName>Bases\BaseRole.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZombiesVsPlants.Shovel" Collapsed="true">
+    <Position X="35.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAgBAAAAAAAAAMAABAAAAAAAAAEgAAAA=</HashCode>
+      <FileName>Extends\Shovel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZombiesVsPlants.SunBoard" Collapsed="true">
+    <Position X="38" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAgAgAAAAAAAAEAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Extends\SunBoard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZombiesVsPlants.MenuDialog" Collapsed="true">
+    <Position X="46.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ECAEAYAAAAAAgAEAgAAICAMAAAACSIAQAEAGBAAAAIA=</HashCode>
+      <FileName>Panels\MenuDialog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZombiesVsPlants.Controller" Collapsed="true">
+    <Position X="42.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>sAAIFIAAgBAAAAAAAIIIARAAABABEAAQQBAABEAAAEA=</HashCode>
+      <FileName>Controller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZombiesVsPlants.Map" Collapsed="true">
+    <Position X="4.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QGyxgQBoAMaAggBN3AAALcBAAAAYwAAwGUQAIBtgkCE=</HashCode>
+      <FileName>Map.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZombiesVsPlants.PlantsBox" Collapsed="true">
+    <Position X="8.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIEAAADAAAAgQBQAAAAkAAEBBBAAACARxgAAAYAEI=</HashCode>
+      <FileName>PlantsBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZombiesVsPlants.Bullets.Bullet" Collapsed="true">
+    <Position X="11" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAgAAIAAAgAAAAAAAAABAIABAQAAAUAACAAAAAI=</HashCode>
+      <FileName>Bullets\Bullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZombiesVsPlants.Bullets.PeaBullet" Collapsed="true">
+    <Position X="11" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Bullets\PeaBullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZombiesVsPlants.Cleaners.Cleaner" Collapsed="true">
+    <Position X="13.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAIAAAgAAAAAAAAAAEIABAAAAAUAAAAAAAQI=</HashCode>
+      <FileName>Cleaners\Cleaner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZombiesVsPlants.Cleaners.LawnMower" Collapsed="true">
+    <Position X="13.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cleaners\LawnMower.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsFormsApplication3.BoxForPlant" Collapsed="true">
+    <Position X="44.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAIAAEACAAAA=</HashCode>
+      <FileName>BoxForPlant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZombiesVsPlants.Extends.CardsBar" Collapsed="true">
+    <Position X="46.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAEAAAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extends\CardsBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZombiesVsPlants.Extends.PlantCard" Collapsed="true">
+    <Position X="40.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAABgAAAAAQAAAAEACBABAAgQAAAMAAgAA=</HashCode>
+      <FileName>Extends\PlantCard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZombiesVsPlants.Extends.Sun" Collapsed="true">
+    <Position X="6.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACQAgAAAAAEhgAAAAAAAQAAAEBAAACIAAACEAAggI=</HashCode>
+      <FileName>Extends\Sun.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZombiesVsPlants.Lands.Grass" Collapsed="true">
+    <Position X="33.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lands\Grass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZombiesVsPlants.Lands.Land" Collapsed="true">
+    <Position X="33.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAQCAAgAAAAIAAAAAAAAAgAAAAIAAABAQAA=</HashCode>
+      <FileName>Lands\Land.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZombiesVsPlants.Missions.Mission" Collapsed="true">
+    <Position X="5.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgggEAAAABAAAIQAAAAAgsECAAABAAgAqAABVBAAAAQ=</HashCode>
+      <FileName>Missions\Mission.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZombiesVsPlants.Missions.Mission1" Collapsed="true">
+    <Position X="5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAggAAAAAAAAAAAAAAAgEAAAAAAAAAAIAABEAAAAAA=</HashCode>
+      <FileName>Missions\Mission1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZombiesVsPlants.Missions.Mission2" Collapsed="true">
+    <Position X="7.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAggAAAAAAAAAQAAAAAgEAAAAAAAAAAIAABEAAAAAA=</HashCode>
+      <FileName>Missions\Mission2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZombiesVsPlants.Missions.Mission3" Collapsed="true">
+    <Position X="9.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAggAAAAAAAAAQAAAAAgEAAAAAAAAAAIAABEAAAAAA=</HashCode>
+      <FileName>Missions\Mission3.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZombiesVsPlants.Missions.Mission4" Collapsed="true">
+    <Position X="2.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAggAAAAAAAAAQAAAAAgEAAAAAAAAAAIAABEAAAAAA=</HashCode>
+      <FileName>Missions\Mission4.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZombiesVsPlants.Panels.GamePanel" Collapsed="true">
+    <Position X="44.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAABAAAAAACAAAAgACAAMAAACAACAAAAAAAAgAAA=</HashCode>
+      <FileName>Panels\GamePanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZombiesVsPlants.Panels.MyButton" Collapsed="true">
+    <Position X="42.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAIEAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Panels\MyButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZombiesVsPlants.Panels.WelcomePanel" Collapsed="true">
+    <Position X="44.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwAAAIBAAEAAAAAAAQAAAAAAAAAAEAIAAAAAAAAABAA=</HashCode>
+      <FileName>Panels\WelcomePanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZombiesVsPlants.Plants.GatlingPea" Collapsed="true">
+    <Position X="29" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAIAAAAAAUAAAAAAAAAA=</HashCode>
+      <FileName>Plants\GatlingPea.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZombiesVsPlants.Plants.Peashooter" Collapsed="true">
+    <Position X="31.25" Y="7.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAIAAAAAAUAAAAAAAAAA=</HashCode>
+      <FileName>Plants\Peashooter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZombiesVsPlants.Plants.Plant" Collapsed="true">
+    <Position X="27.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAgAABAAAgAAAAAAAAAAAAABAAAAQwAACAIAAAI=</HashCode>
+      <FileName>Plants\Plant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZombiesVsPlants.Plants.Repeater" Collapsed="true">
+    <Position X="24.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAIAAAAAAUAAAAAAAAAA=</HashCode>
+      <FileName>Plants\Repeater.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZombiesVsPlants.Plants.SunFlower" Collapsed="true">
+    <Position X="26.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAABAAAIAAAAAAQAAAAAAAAAI=</HashCode>
+      <FileName>Plants\SunFlower.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZombiesVsPlants.Zombies.BucketheadZombie" Collapsed="true">
+    <Position X="15.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Zombies\BucketheadZombie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZombiesVsPlants.Zombies.ConeheadZombie" Collapsed="true">
+    <Position X="17.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Zombies\ConeheadZombie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZombiesVsPlants.Zombies.FlagZombie" Collapsed="true">
+    <Position X="20" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Zombies\FlagZombie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZombiesVsPlants.Zombies.Zombie" Collapsed="true">
+    <Position X="18.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAIAAAgAgAAAAAIQAAJEBAAABAUQACAAAAQI=</HashCode>
+      <FileName>Zombies\Zombie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZombiesVsPlants.Zombies.NormalZombie" Collapsed="true">
+    <Position X="22.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Zombies\NormalZombie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="ZombiesVsPlants.GameStatus" Collapsed="true">
+    <Position X="46.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAIAAAAAAABAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Enums\GameStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WindowsFormsApplication3.Direction" Collapsed="true">
+    <Position X="42.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAICAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\Direction.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WindowsFormsApplication3.Floor" Collapsed="true">
+    <Position X="44.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAACAAAAgABAAAAAAAAAIAAgAAAAQAAAAA=</HashCode>
+      <FileName>Enums\Floor.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WindowsFormsApplication3.Street" Collapsed="true">
+    <Position X="44.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAABCAgAAgAJAAAAAAAAAIAAggAAAQAAAAA=</HashCode>
+      <FileName>Enums\Street.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ZombiesVsPlants.Enums.RoleStatus" Collapsed="true">
+    <Position X="42.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACCAAAAEAAAAAgAAAAAAgAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Enums\RoleStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

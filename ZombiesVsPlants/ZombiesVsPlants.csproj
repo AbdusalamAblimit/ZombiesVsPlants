@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{29F4364B-8F1C-4862-AC69-EFD7DB8D623C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ZombiesVsPlants</RootNamespace>
+    <AssemblyName>ZombiesVsPlants</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>发布\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>mir2.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.DirectX, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dependent\Microsoft.DirectX.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.DirectX.DirectSound, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dependent\Microsoft.DirectX.DirectSound.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="API\APIS.cs" />
+    <Compile Include="BoxForPlant.cs" />
+    <Compile Include="Extends\CardsBar.cs" />
+    <Compile Include="Extends\PlantCard.cs" />
+    <Compile Include="Cleaners\Cleaner.cs" />
+    <Compile Include="Cleaners\LawnMower.cs" />
+    <Compile Include="Lands\Grass.cs" />
+    <Compile Include="Lands\Land.cs" />
+    <Compile Include="Missions\Mission.cs" />
+    <Compile Include="Missions\Mission1.cs" />
+    <Compile Include="Bullets\Bullet.cs" />
+    <Compile Include="Controller.cs" />
+    <Compile Include="Extends\Sun.cs" />
+    <Compile Include="Bullets\PeaBullet.cs" />
+    <Compile Include="Enums\RoleStatus.cs" />
+    <Compile Include="Bases\BaseObject.cs" />
+    <Compile Include="Missions\Mission4.cs" />
+    <Compile Include="Missions\Mission3.cs" />
+    <Compile Include="Missions\Mission2.cs" />
+    <Compile Include="Plants\GatlingPea.cs" />
+    <Compile Include="Plants\Repeater.cs" />
+    <Compile Include="Plants\WallNut.cs" />
+    <Compile Include="Res\RCards.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RCards.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Res\RImages.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RImages.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Res\UI_Images.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UI_Images.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Zombies\BucketheadZombie.cs" />
+    <Compile Include="Zombies\ConeheadZombie.cs" />
+    <Compile Include="Res\Sounds.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Sounds.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ZombieVSPlant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZombieVSPlant.Designer.cs">
+      <DependentUpon>ZombieVSPlant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Map.cs" />
+    <Compile Include="Enums\Direction.cs" />
+    <Compile Include="Enums\Floor.cs" />
+    <Compile Include="Enums\GameStatus.cs" />
+    <Compile Include="Enums\Street.cs" />
+    <Compile Include="Panels\GamePanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Panels\MenuDialog.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Panels\MyButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Plants\Peashooter.cs" />
+    <Compile Include="Plants\Plant.cs" />
+    <Compile Include="Plants\SunFlower.cs" />
+    <Compile Include="Zombies\FlagZombie.cs" />
+    <Compile Include="PlantsBox.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Panels\WelcomePanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Resources.cs" />
+    <Compile Include="Bases\BaseRole.cs" />
+    <Compile Include="Extends\Shovel.cs" />
+    <Compile Include="Extends\SunBoard.cs" />
+    <Compile Include="Zombies\NormalZombie.cs" />
+    <Compile Include="Zombies\Zombie.cs" />
+    <EmbeddedResource Include="Res\RCards.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>RCards.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Res\RImages.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>RImages.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Res\Sounds.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Sounds.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Res\UI_Images.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UI_Images.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZombieVSPlant.resx">
+      <DependentUpon>ZombieVSPlant.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="ClassDiagram.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\interface\background4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\Plants\GatlingPea\GatlingPea.gif" />
+    <None Include="bin\Debug\Images\Card\Plants\GatlingPea.png" />
+    <None Include="bin\Debug\Images\Card\Plants\SunFlower.bmp" />
+    <None Include="bin\Debug\Images\Card\Plants\Peashooter.bmp" />
+    <None Include="bin\Debug\Images\Card\Plants\Repeater.png" />
+    <None Include="bin\Debug\Images\Zombies\ConeheadZombie\ConeheadZombieAttack.gif" />
+    <None Include="bin\Debug\Images\Zombies\ConeheadZombie\ConeheadZombie.gif" />
+    <None Include="bin\Debug\Images\Zombies\BucketheadZombie\BucketheadZombieAttack.gif" />
+    <None Include="bin\Debug\Images\Zombies\BucketheadZombie\BucketheadZombie.gif" />
+    <None Include="bin\Debug\Images\interface\background1.jpg" />
+    <None Include="bin\Debug\Images\interface\Button.png" />
+    <None Include="Images\interface\background1.jpg" />
+    <None Include="Images\ZombiesWon.png" />
+    <None Include="Images\interface\Button.png" />
+    <None Include="Images\interface\start_leave.png" />
+    <None Include="Images\interface\start_over.png" />
+    <None Include="Images\interface\menu.png" />
+    <None Include="Images\PrepareGrowPlants.gif" />
+    <None Include="Images\Card\Plants\SunFlower.png" />
+    <None Include="Images\Card\Plants\GatlingPea.png" />
+    <None Include="Images\Card\Plants\Peashooter.png" />
+    <None Include="Images\Card\Plants\Repeater.png" />
+    <None Include="Images\Card\Plants\WallNut.png" />
+    <None Include="Images\Plants\GatlingPea\GatlingPea.gif" />
+    <None Include="Images\Plants\Peashooter\Peashooter.gif" />
+    <None Include="Images\Plants\Repeater\Repeater.gif" />
+    <None Include="Images\Plants\SunFlower\SunFlower.gif" />
+    <None Include="Images\Plants\WallNut\WallNut.gif" />
+    <None Include="Images\Plants\WallNut\Wallnut_cracked1.gif" />
+    <None Include="Images\Plants\WallNut\Wallnut_cracked2.gif" />
+    <None Include="Images\Zombies\BucketheadZombie\BucketheadZombie.gif" />
+    <None Include="Images\Zombies\BucketheadZombie\BucketheadZombieAttack.gif" />
+    <None Include="Images\Zombies\ConeheadZombie\ConeheadZombie.gif" />
+    <None Include="Images\Zombies\ConeheadZombie\ConeheadZombieAttack.gif" />
+    <None Include="Images\Zombies\FlagZombie\FlagZombieAttack.gif" />
+    <None Include="Images\Zombies\FlagZombie\FlagZombie.gif" />
+    <None Include="Images\Zombies\Zombie\ZombieDie.gif" />
+    <None Include="Images\Zombies\Zombie\ZombieLostHead.gif" />
+    <None Include="Images\Zombies\Zombie\Zombie.gif" />
+    <None Include="Images\Zombies\Zombie\ZombieAttack.gif" />
+    <None Include="Images\LawnMower.png" />
+    <None Include="Images\Sun.gif" />
+    <None Include="Images\interface\Almanac_PlantCard.png" />
+    <None Include="Images\interface\Almanac_ZombieBack.jpg" />
+    <None Include="Images\interface\Almanac_ZombieCard.png" />
+    <None Include="Images\interface\Almanac_ZombieWindow2.png" />
+    <None Include="Images\interface\AwardScreen_Back.jpg" />
+    <None Include="Images\interface\background1unsodded.jpg" />
+    <None Include="Images\interface\background1unsodded_1.jpg" />
+    <None Include="Images\interface\background1unsodded2.jpg" />
+    <None Include="Images\interface\background2.jpg" />
+    <None Include="Images\interface\background3.jpg" />
+    <None Include="Images\interface\background4.jpg" />
+    <None Include="Images\interface\background5.jpg" />
+    <None Include="Images\interface\background6boss.jpg" />
+    <None Include="Images\interface\crater1.png" />
+    <None Include="Images\interface\dialog_bottomleft.png" />
+    <None Include="Images\interface\dialog_bottommiddle.png" />
+    <None Include="Images\interface\dialog_bottomright.png" />
+    <None Include="Images\interface\dialog_centerleft.png" />
+    <None Include="Images\interface\dialog_centermiddle.png" />
+    <None Include="Images\interface\dialog_centerright.png" />
+    <None Include="Images\interface\dialog_topleft.png" />
+    <None Include="Images\interface\dialog_topmiddle.png" />
+    <None Include="Images\interface\dialog_topright.png" />
+    <None Include="Images\interface\FlagMeterEmpty.png" />
+    <None Include="Images\interface\FlagMeterFull.png" />
+    <None Include="Images\interface\FlagMeterLevelProgress.png" />
+    <None Include="Images\interface\FlagMeterParts1.png" />
+    <None Include="Images\interface\FlagMeterParts2.png" />
+    <None Include="Images\interface\GrowSoil.png" />
+    <None Include="Images\interface\LogoLine.png" />
+    <None Include="Images\interface\PointerDown.gif" />
+    <None Include="Images\interface\PointerUP.gif" />
+    <None Include="Images\interface\SeedChooser_Background.png" />
+    <None Include="Images\interface\SelectorScreen_Almanac.png" />
+    <None Include="Images\interface\SelectorScreen_AlmanacHighlight.png" />
+    <None Include="Images\interface\Shovel.png" />
+    <None Include="Images\interface\ShovelBack.png" />
+    <None Include="Images\interface\sod1row.png" />
+    <None Include="Images\interface\sod3row.png" />
+    <None Include="Images\interface\SodRoll.png" />
+    <None Include="Images\interface\SodRollCap.png" />
+    <None Include="Images\interface\SunBack.png" />
+    <None Include="Images\interface\trophy.png" />
+    <None Include="Images\interface\ZombieNoteSmall.png" />
+    <None Include="Images\interface\Almanac_CloseButton.png" />
+    <None Include="Images\interface\Almanac_CloseButtonHighlight.png" />
+    <None Include="Images\interface\Almanac_IndexBack.jpg" />
+    <None Include="Images\interface\Almanac_IndexButton.png" />
+    <None Include="Images\interface\Almanac_IndexButtonHighlight.png" />
+    <None Include="Images\interface\Almanac_PlantBack.jpg" />
+    <None Include="Images\Plants\PeaBulletHit.gif" />
+    <None Include="Images\Plants\PeaBullet.gif" />
+    <None Include="Images\interface\Almanac_CloseButton1.png" />
+    <None Include="Images\interface\Almanac_CloseButtonHighlight1.png" />
+    <None Include="Images\interface\Almanac_IndexBack1.jpg" />
+    <None Include="Images\interface\Almanac_IndexButton1.png" />
+    <None Include="Images\interface\Almanac_IndexButtonHighlight1.png" />
+    <None Include="Images\interface\Almanac_PlantBack1.jpg" />
+    <None Include="Images\interface\Almanac_PlantCard1.png" />
+    <None Include="Images\interface\Almanac_ZombieBack1.jpg" />
+    <None Include="Images\interface\Almanac_ZombieCard1.png" />
+    <None Include="Images\interface\Almanac_ZombieWindow21.png" />
+    <None Include="Images\interface\AwardScreen_Back1.jpg" />
+    <None Include="Images\interface\background11.jpg" />
+    <None Include="Images\interface\background1unsodded1.jpg" />
+    <None Include="Images\interface\background1unsodded_11.jpg" />
+    <None Include="Images\interface\background1unsodded21.jpg" />
+    <None Include="Images\interface\background21.jpg" />
+    <None Include="Images\interface\Almanac_CloseButton2.png" />
+    <None Include="Images\interface\Almanac_CloseButtonHighlight2.png" />
+    <None Include="Images\interface\Almanac_IndexBack2.jpg" />
+    <None Include="Images\interface\Almanac_IndexButton2.png" />
+    <None Include="Images\interface\Almanac_IndexButtonHighlight2.png" />
+    <None Include="Images\interface\Almanac_PlantBack2.jpg" />
+    <None Include="Images\interface\Almanac_PlantCard2.png" />
+    <None Include="Images\interface\Almanac_ZombieBack2.jpg" />
+    <None Include="Images\interface\background1unsodded3.jpg" />
+    <None Include="Images\interface\Almanac_CloseButton3.png" />
+    <None Include="Images\interface\Almanac_CloseButtonHighlight3.png" />
+    <None Include="Images\interface\Almanac_IndexBack3.jpg" />
+    <None Include="Images\interface\Almanac_IndexButton3.png" />
+    <None Include="Images\interface\Almanac_IndexButtonHighlight3.png" />
+    <None Include="Images\interface\Almanac_PlantBack3.jpg" />
+    <None Include="Images\interface\Almanac_PlantCard3.png" />
+    <None Include="Images\interface\Almanac_ZombieBack3.jpg" />
+    <Content Include="mir2.ico" />
+    <Content Include="Sounds\beginsound.wav" />
+    <None Include="Sounds\menumusic.wav" />
+    <None Include="Sounds\throw2.wav" />
+    <None Include="Sounds\throw.wav" />
+    <None Include="Sounds\losemusic.wav" />
+    <None Include="Sounds\scream.wav" />
+    <None Include="Sounds\awooga.wav" />
+    <None Include="Sounds\winmusic.wav" />
+    <None Include="Resources\winmusic.ogg" />
+    <None Include="Resources\trophy_hi_res.png" />
+    <None Include="Resources\12976486-1-208.wav" />
+    <None Include="Sounds\readysetplant.wav" />
+    <None Include="Sounds\chomp2.wav" />
+    <None Include="Sounds\chomp.wav" />
+    <None Include="bin\Debug\Sounds\buttonclick.wav" />
+    <None Include="bin\Debug\Sounds\groan1.wav" />
+    <None Include="bin\Debug\Sounds\groan2.wav" />
+    <None Include="bin\Debug\Sounds\groan3.wav" />
+    <None Include="bin\Debug\Sounds\groan4.wav" />
+    <None Include="bin\Debug\Sounds\groan5.wav" />
+    <None Include="bin\Debug\Sounds\groan6.wav" />
+    <None Include="bin\Debug\Sounds\plant.ogg" />
+    <None Include="bin\Debug\Sounds\plant.wav" />
+    <None Include="bin\Debug\Sounds\splat.wav" />
+    <None Include="bin\Debug\Sounds\splat2.wav" />
+    <None Include="bin\Debug\Sounds\splat3.wav" />
+    <None Include="bin\Debug\Images\interface\menu.png" />
+    <None Include="bin\Debug\Images\interface\start_leave.png" />
+    <None Include="bin\Debug\Images\interface\start_over.png" />
+    <None Include="bin\Debug\Images\Plants\Repeater\Repeater.gif" />
+    <None Include="bin\Debug\Images\Plants\Peashooter\Peashooter.gif" />
+    <None Include="bin\Debug\Images\Plants\PeaBullet.gif" />
+    <None Include="bin\Debug\Images\Plants\PeaBulletHit.gif" />
+    <None Include="bin\Debug\Images\Plants\SunFlower\SunFlower.gif" />
+    <None Include="bin\Debug\Images\Zombies\Zombie\ZombieLostHead.gif" />
+    <None Include="bin\Debug\Images\Zombies\Zombie\Zombie.gif" />
+    <None Include="bin\Debug\Images\Zombies\Zombie\ZombieAttack.gif" />
+    <None Include="bin\Debug\Images\Zombies\Zombie\ZombieDie.gif" />
+    <None Include="bin\Debug\Images\Zombies\FlagZombie\FlagZombieLostHead.gif" />
+    <None Include="bin\Debug\Images\Zombies\FlagZombie\FlagZombie.gif" />
+    <None Include="bin\Debug\Images\Zombies\FlagZombie\FlagZombieAttack.gif" />
+    <None Include="bin\Debug\Images\Sun.gif" />
+    <None Include="bin\Debug\Images\PrepareGrowPlants.gif" />
+    <None Include="bin\Debug\Images\ZombiesWon.png" />
+    <Content Include="mir.ico" />
+    <None Include="Sounds\splat.wav" />
+    <None Include="Sounds\splat3.wav" />
+    <None Include="Sounds\splat2.wav" />
+    <None Include="Sounds\groan2.wav" />
+    <None Include="Sounds\groan1.wav" />
+    <None Include="Sounds\groan6.wav" />
+    <None Include="Sounds\groan5.wav" />
+    <None Include="Sounds\groan4.wav" />
+    <None Include="Sounds\groan3.wav" />
+    <None Include="Sounds\buttonclick.wav" />
+    <None Include="Sounds\plant.wav" />
+    <None Include="Sounds\plant.ogg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
