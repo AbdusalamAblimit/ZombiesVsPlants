@@ -26,7 +26,7 @@
 <img src="https://abdusalam-typora.oss-cn-beijing.aliyuncs.com/img-for-typoraimage-20230406034855173.png" alt="image-20230406034855173" style="zoom: 50%;" />
 
 解决方式：
-快捷键**Ctrl+Alt+E**，改动<code>Managed Debuggin Assistants</code>的<code>LoaderLock</code>的选中状态去掉即可。
+快捷键**Ctrl+Alt+E**，改动<code>Managed Debuggin Assistants</code>的<code>LoaderLock</code>的选中状态，**使其不被选中**。
 
 
 
